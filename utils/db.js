@@ -1,0 +1,2 @@
+import { MongoClient } from "mongodb";
+export default (user, password) => new MongoClient(`mongodb+srv://${user}:${password}@wowplace-dev.sqjyw.mongodb.net/?retryWrites=true&w=majority&appName=wowplace-dev`);
